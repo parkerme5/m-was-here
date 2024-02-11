@@ -1,0 +1,33 @@
+html {
+    background-color:rgb(42, 48, 46);
+}
+.title {
+    cursor:pointer;
+    text-align:center;
+    color:antiquewhite;
+    font-family:Playfair Display;
+    font-style: italic bold;
+    font-size: 30px;
+}
+
+
+h1 {
+    text-align:center;
+    font-size:70px;
+    color:antiquewhite;
+    border: 5px solid rgb(120, 98, 78);
+}
+
+
+.content {
+    text-align:left;
+    width: 60vw;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:antiquewhite;
+    border: 5px solid rgb(120, 98, 78);
+    color:rgb(42, 48, 46);
+    padding:10px;
+    font-family:Playfair Display;
+    font-size:20px;
+}

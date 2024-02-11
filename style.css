@@ -1,0 +1,35 @@
+html {
+    background-color:rgb(42, 48, 46);
+}
+
+h1 {
+    text-align:center;
+    font-size:70px;
+    color:antiquewhite;
+    border: 5px solid rgb(120, 98, 78);
+}
+h2 {
+    text-align:center;
+    font-size: 30px;
+    color:antiquewhite;
+}
+
+.links {
+    cursor:pointer;
+    text-align:center;
+    color:antiquewhite;
+    font-family:Playfair Display;
+    font-style: italic bold;
+    font-size: 30px;
+    text-decoration:none;
+}
+
+a:link{
+    color: antiquewhite;
+    text-decoration:none;
+}
+
+a:visited {
+    color:antiquewhite;
+    text-decoration:none;
+}
