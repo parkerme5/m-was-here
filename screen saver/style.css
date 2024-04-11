@@ -1,0 +1,214 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin:0;
+    width:100vw;
+    height:100vh;
+    background-color:pink;
+}
+
+
+.heart-1 {
+    width:20vw;
+    height:20vw;
+   margin-left:auto;
+   margin-right:auto;
+   /* display:block; */
+   /* position:absolute; */
+   /* animation:opacity 20s infinite alternate linear, */
+   animation:scale-1 5s infinite linear alternate;
+   z-index:2;
+    
+}
+
+.heart-2 {
+    width:20vw;
+    height:20vw;
+   text-align:left;
+   /* display:block; */
+   /* position:absolute; */
+   /* animation:opacity 20s infinite alternate linear, */
+   animation:scale-2 10s infinite alternate linear;
+   z-index:20;
+   
+    
+}
+
+.heart-3 {
+    width:20vw;
+    height:20vw;
+    
+   /* display:block; */
+   /* position:absolute; */
+   /* animation:opacity 20s infinite alternate linear, */
+   animation:scale-1 5s infinite alternate linear;
+   z-index:-1
+   
+    
+}
+
+
+.heart-container {
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-wrap:wrap;
+    position:absolute;
+    justify-content:space-around;
+    align-items:center;
+    overflow:hidden;
+}
+
+
+
+
+.container {
+    height:100vh;
+    gap:0;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.row-1 {
+    height:10vh;
+    display:flex;
+}
+
+.row-2 {
+    height:10vh;
+    display:flex;
+}
+
+.row-3 {
+    height:10%;
+    display:flex;
+}
+
+.row-4 {
+    height:10%;
+    display:flex;
+}
+
+.row-5 {
+    height:10%;
+    display:flex;
+}
+
+.row-6 {
+    height:10%;
+    display:flex;
+}
+
+.row-7 {
+    height:10%;
+    display:flex;
+}
+
+.row-8 {
+    height:10%;
+    display:flex;
+}
+
+.row-9 {
+    height:10%;
+    display:flex;
+}
+
+.row-10 {
+    height:10%;
+    display:flex;
+}
+
+.odd {
+    background-color:black;
+    width:5vw;
+    animation: odd 20s infinite alternate linear;
+  
+}
+
+@keyframes odd {
+    0% {
+        background-color: rgb(0, 0, 0);
+
+    }
+
+    100% {
+        background-color:rgb(255, 255, 255);
+
+    }
+}
+
+.even {
+    background-color:white;
+    width:5vw;
+    animation:even 20s infinite alternate linear;
+  
+}
+
+@keyframes even {
+    0% {
+        background-color:rgb(255, 255, 255);
+        
+    }
+
+    100% {
+        background-color: rgb(0, 0, 0);
+
+       
+
+    }
+}
+
+@keyframes opacity {
+    0% {
+        opacity:25%;
+    }
+
+   100% {
+    opacity:100%;
+    
+   }
+   
+}
+
+@keyframes scale-1 {
+    /* 0% {
+        transform:scale(1);
+    }
+    80% {
+        transform:scale(1.25)
+    }
+    90% {
+        transform:scale(1.75)
+    }
+    100% {
+        transform:scale(1.5)
+    }
+    0% {
+        transform:scale(1)
+    }
+     */
+     0% {
+        transform:scale(1)
+     }
+     100% {
+        transform:scale(1.25)
+     }
+
+}
+
+@keyframes scale-2 {
+    0% {
+        transform:scale(1)
+    }
+    100% {
+        transform:scale(2.25)
+    }
+}
+
+
+
+
+
