@@ -1,0 +1,350 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+} 
+
+body {
+    background-color:rgb(19, 19, 19);
+    background-image: url(star-background.png);
+    /* display:flex; */
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+    
+    
+}
+
+background-image {
+    overflow:hidden;
+    max-width: 100vw;
+}
+.witch-image {
+    width:1000px;
+    position:absolute;
+    animation: flying 15s alternate-reverse infinite;
+    
+
+    
+}
+
+.death-image {
+    width:900px;
+    position:absolute;
+    animation: flying 15s alternate infinite;
+    
+
+    
+}
+.luna-image {
+    width:700px;
+    position:absolute;
+    animation: flying 15s alternate-reverse infinite;
+    
+
+    
+}
+.sunset-image {
+    width:500px;
+    position:absolute;
+    animation: flying 15s alternate infinite;
+    
+
+    
+}
+.emperor-image {
+    width:500px;
+    position:absolute;
+    animation: flying-2 15s alternate-reverse infinite;
+     
+}
+.tolype-image {
+    width:300px;
+    position:absolute;
+    animation: flying-2 15s alternate infinite;
+      
+}
+
+.hummingbird-image {
+    width:300px;
+    position:absolute;
+    animation: flying-2 15s alternate-reverse infinite;
+      
+}
+.plume-image {
+    width:300px;
+    position:absolute;
+    animation: flying-3 15s alternate infinite;
+     
+}
+
+.image-conainer {
+    width: 100vw;
+    height: 100vh;
+    overflow:hidden;
+}
+
+
+
+@keyframes flying {
+    0% { transform: translate(-100px,0);}
+    15% { transform: translate( 700px, 50px);}
+    25% { transform: translate(300px, 300px);}
+    35% { transform: translate(400px, -100px);}
+    50% { transform: translate(600px, 100px);}
+    75% { transform: translate( 700px, 400px);}
+    85% { transform: translate(0, 300px);}
+    100% { transform: translate(400px, 100px);}
+
+}
+@keyframes flying-2 {
+    0% { transform: translate(-100px,0);}
+    15% { transform: translate( 500px, 50px);}
+    25% { transform: translate(100px, 300px);}
+    35% { transform: translate(200px, -100px);}
+    50% { transform: translate(400px, 100px);}
+    75% { transform: translate( 500px, 400px);}
+    85% { transform: translate(0, 300px);}
+    100% { transform: translate(200px, 100px);}
+}
+
+@keyframes flying-3 {
+    0% { transform: translate(-100px,0);}
+    15% { transform: translate( 400px, 50px);}
+    25% { transform: translate(10px, 300px);}
+    35% { transform: translate(100px, -100px);}
+    50% { transform: translate(200px, 100px);}
+    75% { transform: translate( 300px, 400px);}
+    85% { transform: translate(0, 200px);}
+    100% { transform: translate(100px, 100px);}
+}
+.title {
+    display:flex;
+    font-size:200px;
+    font-family:Grenze Gotisch;
+    color: rgb(242, 234, 224);
+    justify-content:center;
+    align-items:center;
+    height:100vh; 
+    z-index:2;
+}
+
+.moth-name {
+    font-size:60px;
+    color:rgb(242, 234, 224);
+    font-family: Grenze Gotisch;  
+    text-align:center;
+    position:relative;
+}
+.moth-info {
+    font-size:45px;
+    color: rgb(242, 234, 224);
+    font-family: geo;
+    z-index:1;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    
+    
+}
+
+#text {
+    position:absolute;
+    bottom:0;
+    left:0;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+
+span {
+    display: inline;
+    background-color:rgb(19, 19, 19);
+    opacity:80%;
+}
+
+
+.luna {
+    max-width:1300px;
+    
+}
+
+
+@media screen and (min-width:1700px) {
+    .moth-info {
+        display:none;
+    }
+    .witch-image {
+        display:none;
+    }
+}
+
+
+@media screen and (max-width:1700px) {
+    
+    .title {
+        display:none;
+    }
+    .death-head {
+        display:none;
+    }
+    .luna {
+        display:none;
+    }
+    .sunset {
+        display:none;
+    }
+    .emperor {
+        display:none;
+    }
+    .tolype {
+        display:none;
+    }
+    .hummingbird {
+        display:none;
+    }
+    .plume {
+        display:none;
+    }
+    
+    
+ 
+    
+}  
+
+@media screen and (max-width: 1550px) {
+    .death-head {
+    display:block;
+    }
+    .white-witch {
+        display: none;
+    }
+    .luna {
+        display: none;
+    }
+    .sunset {
+        display:none;
+    }
+    .emperor {
+        display:none;
+    }
+    .tolype {
+        display:none;
+    }
+    .hummingbird {
+        display:none;
+    }
+    .plume {
+        display:none;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .luna {
+        display:block;
+    }
+    /* .moth-name {
+        font-family:Arial, Helvetica, sans-serif;
+    } */
+    .death-head {
+        display:none;
+    }
+    .sunset {
+        display:none;
+    }
+    .emperor {
+        display:none;
+    }
+    .tolype {
+        display:none;
+    }
+    .hummingbird {
+        display:none;
+    }
+    .plume {
+        display:none;
+    }
+    
+}
+
+@media screen and (max-width: 1250px) {
+    .sunset {
+        display:block;
+    }
+    .luna {
+        display:none;
+    }
+    .emperor {
+        display:none;
+    }
+    .tolype {
+        display:none;
+    }
+    .hummingbird {
+        display:none;
+    }
+    .plume {
+        display:none;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .emperor {
+        display:block;
+    
+    }
+    .sunset {
+        display:none;
+    }
+
+    .tolype {
+        display:none;
+    }
+    .hummingbird {
+        display:none;
+    }
+    .plume {
+        display:none;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .tolype {
+        display:block;
+    
+    }
+    .emperor {
+        display:none;
+    }
+    .hummingbird {
+        display:none;
+    }
+    .plume {
+        display:none;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .hummingbird {
+        display:block;
+    
+    }
+    .tolype {
+        display:none;
+    }
+    .plume {
+        display:none;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .plume {
+        display:block;
+    
+    }
+    .hummingbird{
+        display:none;
+    }
+}
