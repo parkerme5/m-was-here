@@ -1,0 +1,53 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+} 
+
+.block {
+    background-color:darkolivegreen;
+    padding:10px;
+    border:1px solid black;
+    
+
+}
+
+.inline {
+    background-color:pink;
+    padding: 10px;
+    margin: 10px;
+    display:inline-block;
+}
+
+.container {
+    background-color:lightblue;
+    padding:10px;
+    height: 600px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:center;
+
+    /* align-items is for non wrapping flexboxes, 
+    align-content is for wrapping. */
+    align-items:center;
+
+    /* gap on the container works better than using margins to create space around items */
+
+    gap:20px 50px;
+}
+
+.item {
+    background-color:bisque;
+    padding:10px;
+    border:1px solid black;
+    width:200px;
+    height: 100px;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

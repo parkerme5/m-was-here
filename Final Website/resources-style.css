@@ -1,0 +1,81 @@
+html {
+    background-color:rgb(0, 0, 0); 
+}
+
+body {
+    cursor: url("archive-cursor.png"), auto;
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(63, 68, 65) 
+}
+.navbar li {
+    float: left;
+    border-right: 2px solid rgb(163, 167, 165)
+}
+#navlink {
+    display: block;
+    color:rgb(163, 167, 165); 
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Aldrich';
+    cursor: url("archive-cursor-hover.png"),auto;
+}
+
+#navlink:link {
+    color:rgb(163, 167, 165) 
+}
+#navlink:visited {
+    color:rgb(163, 167, 165)
+}
+#navlink:hover {
+    background-color: rgb(91, 101, 94);
+}
+
+.button {
+    background-color: rgb(91, 101, 94);
+    border: none;
+    color:rgb(163, 167, 165);
+    padding: 20px 50px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    font-family:'Aldrich';
+    margin: 4px 2px;
+    cursor: url("archive-cursor-hover.png"),auto;
+ 
+}
+.button:link {
+    font-family:'Aldrich';
+    text-decoration: none;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* *{
+    padding:0 ;
+    margin: 0;
+} */
+
+h1 { 
+    color:rgb(163, 167, 165);
+    text-align: center;
+    font-family: 'Silkscreen';
+    font-size: 50px;
+    margin-top:25px;
+    position:relative;
+}
+
+body {
+    cursor: url("archive-cursor.png"),auto;
+}
